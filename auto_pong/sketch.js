@@ -1,13 +1,14 @@
-let canvasWidth = 0;
-let canvasHeight = 0;
-let barL = {};
-let barR = {};
-let ball = {};
-let speed = 5;
+let canvasWidth;
+let canvasHeight;
+let barL;
+let barR;
+let ball;
+let speed;
 
 function setup() {
-    canvasWidth = windowWidth;
-    canvasHeight = windowHeight;
+    canvasWidth = 800;
+    canvasHeight = 600;
+    speed = 5;
 
     createCanvas(canvasWidth, canvasHeight);
     background(0);
